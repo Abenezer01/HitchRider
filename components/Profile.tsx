@@ -18,7 +18,7 @@ export default function UserProfile() {
       <div className="flex flex-col items-center w-full gap-8 bg-tg-bg p-8 rounded-xl border-2 border-grey-400">
         <h1 className="font-semibold">{t('title')}</h1>
         <img
-          src="https://randomuser.me/api/portraits/lego/1.jpg"
+          src={user?.photo_url}
           alt="Logo"
           className="rounded-full w-1/2 mx-auto"
         />
