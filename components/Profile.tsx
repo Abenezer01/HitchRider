@@ -11,7 +11,7 @@ export default function UserProfile() {
   }
   // const { userData } = useSWR<User>('/api/user');
   const { user } = window.Telegram.WebApp.initDataUnsafe;
-
+  console.log("user ",user);
   return (
     // <Link href={`/users/${chatID}/profile`}>
     <div className="flex flex-col items-center gap-8 pt-6 mx-8 ">
